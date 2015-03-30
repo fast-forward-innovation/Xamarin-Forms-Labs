@@ -71,19 +71,6 @@
       <Link>Services\FontManager.designer.cs</Link>
       <DependentUpon>..\Services\FontManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\Calendar\CalendarViewRenderer.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarArrowView.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarCellView.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarGridView.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarMonthPageTransformer.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarPickerView.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarRowView.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\Logr.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\MonthAdapter.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\MonthCellDescriptor.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\MonthDescriptor.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\MonthView.cs" />
-    <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\StyleDescriptor.cs" />
     <Compile Include="Controls\CameraView\CameraViewRenderer.cs" />
     <Compile Include="Controls\CheckBox\CheckBoxRenderer.cs" />
     <Compile Include="Controls\CircleImage\CircleImageRenderer.cs" />
@@ -169,9 +156,6 @@
       <Project>{DC0BDD11-9352-44E4-BCEB-8AE56794BB41}</Project>
       <Name>XLabs.Forms</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Controls\Calendar\MonoDroid.TimesSquare\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavior\" />
